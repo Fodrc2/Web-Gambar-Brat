@@ -3,8 +3,8 @@ import { Download, Github, Palette, Type } from 'lucide-react';
 
 function App() {
   const [text, setText] = useState('');
-  const [backgroundColor, setBackgroundColor] = useState('#Putih');
-  const [textColor, setTextColor] = useState('#Hitam');
+  const [backgroundColor, setBackgroundColor] = useState('#PiLih Warna');
+  const [textColor, setTextColor] = useState('#Pilih Warna');
   const [isColorPickerOpen, setIsColorPickerOpen] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
