@@ -3,8 +3,8 @@ import { Download, Github, Palette, Type } from 'lucide-react';
 
 function App() {
   const [text, setText] = useState('');
-  const [backgroundColor, setBackgroundColor] = useState('#PiLih Warna');
-  const [textColor, setTextColor] = useState('#Pilih Warna');
+  const [backgroundColor, setBackgroundColor] = useState('#PiLih Warna Biru');
+  const [textColor, setTextColor] = useState('#Pilih Warna Hitam');
   const [isColorPickerOpen, setIsColorPickerOpen] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -219,7 +219,7 @@ function App() {
             className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
           >
             <Github size={20} />
-            <span>Made With ♥ By Rza2005vi</span>
+            <span>Made With ♥ By Rza2005ni</span>
           </a>
         </footer>
       </div>
