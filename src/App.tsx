@@ -4,7 +4,7 @@ import { Download, Github, Palette, Type } from 'lucide-react';
 function App() {
   const [text, setText] = useState('');
   const [backgroundColor, setBackgroundColor] = useState('#PiLih Warna Biru');
-  const [textColor, setTextColor] = useState('#Pilih Warna Hitam');
+  const [textColor, setTextColor] = useState('#PiLih Warna Putih');
   const [isColorPickerOpen, setIsColorPickerOpen] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -129,9 +129,9 @@ function App() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-                💌 instagram: @Rza2005vi
+                💌  instagram: @Rza2005vi
               </h1>
-              <p className="text-gray-400">Buat Gambar Brat Teks Dengan Pilihan Warna yang indah" Warna Khusus Dan Bisa Text Dan Emoji'</p>
+              <p className="text-gray-400">𖥊 Buat Gambar Brat Teks Dengan Pilihan Warna yang indah" Warna Khusus Dan Bisa Text Dan Emoji 𖦒'</p>
             </div>
             
             <div className="bg-gray-800 rounded-2xl p-6 shadow-xl mb-8">
@@ -219,7 +219,7 @@ function App() {
             className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
           >
             <Github size={20} />
-            <span>Made With ♥ By Rza2005ni</span>
+            <span>Made With ♥ By Rza2005vi</span>
           </a>
         </footer>
       </div>
